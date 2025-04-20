@@ -4,7 +4,6 @@ from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
 from django.contrib.auth import authenticate, login, update_session_auth_hash
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-# Create your views here.
 
 # def add_author(request):
 #     if request.method == 'POST':
